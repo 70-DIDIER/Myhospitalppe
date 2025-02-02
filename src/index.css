@@ -1,6 +1,7 @@
 /********** Template CSS **********/
 :root {
   --primary: #0077B6;
+  --primary: #0c7ab5;
   --secondary: #28A745;
   --light: #EFF5F9;
   --dark: #1D2A4D;
@@ -224,25 +225,7 @@
   justify-content: center;
 }
 
-.testimonial-carousel .owl-dot {
-  position: relative;
-  display: inline-block;
-  margin: 0 5px;
-  width: 20px;
-  height: 20px;
-  background: var(--light);
-  border: 2px solid var(--primary);
-  border-radius: 20px;
-  transition: .5s;
-}
 
-.testimonial-carousel .owl-dot.active {
-  width: 40px;
-  height: 40px;
-  background: var(--primary);
-}
 
-.testimonial-carousel .owl-item img {
-  width: 150px;
-  height: 150px;
-}
+
+

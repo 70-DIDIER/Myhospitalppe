@@ -1,6 +1,7 @@
 import backgroundImage from '../assets/background.jpg'; // Assurez-vous que le chemin est correct
 
 function Home() {
+    //le style pour l'image de fond
     const pageStyle = {
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',
@@ -12,7 +13,7 @@ function Home() {
         position: 'relative',
         color: 'white'
     };
-
+//le style pour superposer l'image et le div
     const overlayStyle = {
         position: 'absolute',
         top: 0,
@@ -36,7 +37,7 @@ function Home() {
                     <div className="container py-5">
                         <div className="row justify-content-start">
                             <div className="col-lg-8  text-lg-start">
-                                <h3 style={{ fontSize: "35px", fontWeight:"bold"}}>Bienvenu sur MyHospital votre application de localisation des services de santé</h3>
+                                <h3 style={{ fontSize: "45px", fontWeight:"bold"}}>Bienvenu sur MyHospital votre application de localisation des services de santé</h3>
                                 <p>Vous pouvez rechercher les services de santé les plus proches de votre position géographique</p>
                                 <p>Prenez rendez vous avec un medecin qualifié pour vos consultation</p>  
                                 <div className="pt-2">
