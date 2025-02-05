@@ -18,28 +18,22 @@ export default function About(){
         <div className="col-lg-7">
           <div className="mb-4">
             <h5 className="d-inline-block text-primary text-uppercase border-bottom border-5">
-              About Us
+              A propos
             </h5>
             <h1 className="display-4">
-              Best Medical Care For Yourself and Your Family
+              Meilleurs soins médicaux pour vous et votre famille
             </h1>
           </div>
           <p>
-            Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam
-            dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam
-            diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem
-            et sit, sed stet no labore lorem sit. Sanctus clita duo justo et
-            tempor consetetur takimata eirmod, dolores takimata consetetur
-            invidunt magna dolores aliquyam dolores dolore. Amet erat amet et
-            magna
+            MyHospital est une application innovante conçue pour faciliter et améliorer l'accès aux soins médicaux en cas d'urgence ou de besoin. Notre mission est de connecter les patients aux hôpitaux, cliniques, pharmacies et professionnels de santé les plus proches, afin d'assurer une intervention rapide et efficace.
           </p>
           <div className="row g-3 pt-3">
             <div className="col-sm-3 col-6">
               <div className="bg-light text-center rounded-circle py-4">
                 <i className="fa fa-3x fa-user-md text-primary mb-3" />
                 <h6 className="mb-0">
-                  Qualified
-                  <small className="d-block text-primary">Doctors</small>
+                  Docteur
+                  <small className="d-block text-primary">Qualifiés</small>
                 </h6>
               </div>
             </div>
@@ -47,8 +41,8 @@ export default function About(){
               <div className="bg-light text-center rounded-circle py-4">
                 <i className="fa fa-3x fa-procedures text-primary mb-3" />
                 <h6 className="mb-0">
-                  Emergency
-                  <small className="d-block text-primary">Services</small>
+                  Service
+                  <small className="d-block text-primary">D'urgence</small>
                 </h6>
               </div>
             </div>

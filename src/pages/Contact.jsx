@@ -4,9 +4,9 @@ export default function Contact(){
         <div className="container">
             <div className="text-center mx-auto mb-5" style={{ maxWidth: 500 }}>
             <h5 className="d-inline-block text-primary text-uppercase border-bottom border-5">
-                Any Questions?
+                DES QUESTION ?
             </h5>
-            <h1 className="display-4">Please Feel Free To Contact Us</h1>
+            <h1 className="display-4">N'HESITEZ PAS A NOUS CONTACTER</h1>
             </div>
             <div className="row g-5 mb-5">
             <div className="col-lg-4">
@@ -25,7 +25,7 @@ export default function Contact(){
                     <i className="bi bi-send text-white"></i>
 
                 </div>
-                <h6 className="mb-0">123 Street, New York, USA</h6>
+                <h6 className="mb-0">Lomé, TOGO</h6>
                 </div>
             </div>
             <div className="col-lg-4">
@@ -39,7 +39,7 @@ export default function Contact(){
                 >
                     <i className="bi bi-telephone text-white"></i>
                 </div>
-                <h6 className="mb-0">+012 345 6789</h6>
+                <h6 className="mb-0">96712198 /  96827451</h6>
                 </div>
             </div>
             <div className="col-lg-4">
@@ -54,7 +54,7 @@ export default function Contact(){
                     <i className="bi bi-envelope-at text-white" />
 
                 </div>
-                <h6 className="mb-0">info@example.com</h6>
+                <h6 className="mb-0">adiloukoffi@ipnet.intitute.com</h6>
                 </div>
             </div>
             </div>
@@ -85,7 +85,7 @@ export default function Contact(){
                         <input
                         type="text"
                         className="form-control bg-light border-0"
-                        placeholder="Your Name"
+                        placeholder="Votre nom"
                         style={{ height: 55 }}
                         />
                     </div>
@@ -93,7 +93,7 @@ export default function Contact(){
                         <input
                         type="email"
                         className="form-control bg-light border-0"
-                        placeholder="Your Email"
+                        placeholder="Votre E-mail"
                         style={{ height: 55 }}
                         />
                     </div>
@@ -101,7 +101,7 @@ export default function Contact(){
                         <input
                         type="text"
                         className="form-control bg-light border-0"
-                        placeholder="Subject"
+                        placeholder="Objet"
                         style={{ height: 55 }}
                         />
                     </div>
@@ -115,7 +115,7 @@ export default function Contact(){
                     </div>
                     <div className="col-12">
                         <button className="btn btn-primary w-100 py-3" type="submit">
-                        Send Message
+                        Envoyer le Message
                         </button>
                     </div>
                     </div>

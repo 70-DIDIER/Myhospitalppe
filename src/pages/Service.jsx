@@ -8,7 +8,7 @@ export default function Service(){
         <h5 className="d-inline-block text-primary text-uppercase border-bottom border-5">
           Services
         </h5>
-        <h1 className="display-4">Excellent Medical Services</h1>
+        <h1 className="display-4">Excellents services médicaux</h1>
       </div>
       <div className="row g-5">
         <div className="col-lg-4 col-md-6">
@@ -16,10 +16,11 @@ export default function Service(){
             <div className="service-icon mb-4">
               <i className="fa fa-2x fa-user-md text-white" />
             </div>
-            <h4 className="mb-3">Emergency Care</h4>
+            <h4 className="mb-3">
+              Urgences médicales
+            </h4>
             <p className="m-0">
-              Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-              stet, justo elitr dolor amet sit
+              Contactez rapidement les hôpitaux ou cliniques les plus proches pour une intervention immédiate. Notre système de géolocalisation vous aide à identifier les établissements disponibles en temps réel.
             </p>
             <a className="btn btn-lg btn-primary rounded-pill" href="">
               <i className="bi bi-arrow-right" />
@@ -46,10 +47,11 @@ export default function Service(){
             <div className="service-icon mb-4">
               <i className="fa fa-2x fa-stethoscope text-white" />
             </div>
-            <h4 className="mb-3">Outdoor Checkup</h4>
+            <h4 className="mb-3">
+              Consultation en ligne
+            </h4>
             <p className="m-0">
-              Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-              stet, justo elitr dolor amet sit
+              Accédez à des consultations médicales depuis chez vous. Échangez avec des professionnels de santé pour un diagnostic rapide et des conseils adaptés.
             </p>
             <a className="btn btn-lg btn-primary rounded-pill" href="">
               <i className="bi bi-arrow-right" />
@@ -76,10 +78,11 @@ export default function Service(){
             <div className="service-icon mb-4">
               <i className="fa fa-2x fa-pills text-white" />
             </div>
-            <h4 className="mb-3">Medicine &amp; Pharmacy</h4>
+            <h4 className="mb-3">
+              Pharmacie de garde
+            </h4>
             <p className="m-0">
-              Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-              stet, justo elitr dolor amet sit
+              Identifiez rapidement les pharmacies ouvertes 24h/24 et 7j/7 pour obtenir vos médicaments en toute urgence.
             </p>
             <a className="btn btn-lg btn-primary rounded-pill" href="">
               <i className="bi bi-arrow-right" />

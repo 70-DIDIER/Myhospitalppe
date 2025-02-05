@@ -7,47 +7,46 @@ function Footer() {
                     <div className="row g-5">
                         <div className="col-lg-3 col-md-6">
                             <h4 className="d-inline-block custom-btn text-uppercase border-bottom border-5 border-secondary mb-4">
-                                Get In Touch
+                                CONTACTEZ-NOUS
                             </h4>
                             <p className="mb-4">
-                                No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et
-                                et dolor sed dolor
+                                Pour plus d'information, contactez-nous sur:
                             </p>
                             <p className="mb-2">
                                 <i className="bi bi-geo-alt  me-3" style={{ color: '#0077B6' }}></i>
-                                123 Street, New York, USA
+                                Lomé, TOGO
                             </p>
                             <p className="mb-2">
                                 <i className="bi bi-envelope  me-3" style={{ color: '#0077B6' }}></i>
-                                info@example.com
+                                adiloukoffi@ipnet.institute.com
                             </p>
                             <p className="mb-0">
                                 <i className="bi bi-telephone  me-3" style={{ color: '#0077B6' }}/>
-                                +012 345 6789
+                                96712198 /  96827451
                             </p>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <h4 className="d-inline-block custom-btn text-uppercase border-bottom border-5 border-secondary mb-4">
-                                Quick Links
+                                Liens Rapide
                             </h4>
                             <div className="d-flex flex-column">
                                 <a href="/" className="text-light mb-2">
-                                    <i className="bi bi-chevron-right me-2" style={{ color: '#0077B6' }}/> Home
+                                    <i className="bi bi-chevron-right me-2" style={{ color: '#0077B6' }}/> Accueil
                                 </a>
                                 <a href="/contact" className="text-light mb-2">
-                                    <i className="bi bi-chevron-right me-2" /> Contact
+                                    <i className="bi bi-chevron-right me-2" /> A propos
                                 </a>
                                 <a href="/about" className="text-light mb-2">
-                                    <i className="bi bi-chevron-right me-2" /> About
+                                    <i className="bi bi-chevron-right me-2" /> Service
                                 </a>
                                 <a href="/services" className="text-light mb-2">
-                                    <i className="bi bi-chevron-right me-2" /> Services
+                                    <i className="bi bi-chevron-right me-2" /> Contact
                                 </a>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <h4 className="d-inline-block custom-btn text-uppercase border-bottom border-5 border-secondary mb-4">
-                                Follow Us
+                                SUIVEZ-NOUS
                             </h4>
                             <div className="d-flex">
                                 <a className="btn btn-lg custom-btn btn-lg-square rounded-circle me-2" href="#">
@@ -66,12 +65,12 @@ function Footer() {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <h4 className="d-inline-block custom-btn text-uppercase border-bottom border-5 border-secondary mb-4">
-                                Newsletter
+                                LETTRE D'INFORMATION
                             </h4>
                             <form action="">
                                 <div className="input-group">
                                     <input type="text" className="form-control p-3 border-0" placeholder="Your Email Address" />
-                                    <button className="btn custom-btn ">Sign Up</button>
+                                    <button className="btn custom-btn ">Connectez-vous</button>
                                 </div>
                             </form>
                         </div>

@@ -22,10 +22,10 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <div className="navbar-nav ms-auto py-0">
                             <Link to="/" className="nav-item nav-link active">
-                                Home
+                                Accueil
                             </Link>
                             <Link to="/about" className="nav-item nav-link">
-                                About
+                                A propos
                             </Link>
                             <Link to="/service" className="nav-item nav-link">
                                 Service
@@ -43,16 +43,16 @@ function Navbar() {
                                 </Link>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <Link to="/team" className="dropdown-item">
-                                        The Team
+                                        Rendez-vous
                                     </Link>
                                     <Link to="/testimonial" className="dropdown-item">
-                                        Testimonial
+                                        Trouver un docteur
                                     </Link>
                                     <Link to="/appointment" className="dropdown-item">
-                                        Appointment
+                                        Trouver les pharmacie de garde
                                     </Link>
                                     <Link to="/search" className="dropdown-item">
-                                        Search
+                                        Recherche
                                     </Link>
                                 </div>
                             </div>
