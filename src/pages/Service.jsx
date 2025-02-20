@@ -14,7 +14,7 @@ export default function Service(){
         <div className="col-lg-4 col-md-6">
           <div className="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
             <div className="service-icon mb-4">
-              <i className="fa fa-2x fa-user-md text-white" />
+              <i className="fa fa-2x fa-ambulance text-white"/>
             </div>
             <h4 className="mb-3">
               Urgences médicales
@@ -30,26 +30,9 @@ export default function Service(){
         <div className="col-lg-4 col-md-6">
           <div className="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
             <div className="service-icon mb-4">
-              <i className="fa fa-2x fa-procedures text-white" />
-            </div>
-            <h4 className="mb-3">Operation &amp; Surgery</h4>
-            <p className="m-0">
-              Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-              stet, justo elitr dolor amet sit
-            </p>
-            <a className="btn btn-lg btn-primary rounded-pill" href="">
-              <i className="bi bi-arrow-right" />
-            </a>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <div className="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-            <div className="service-icon mb-4">
               <i className="fa fa-2x fa-stethoscope text-white" />
             </div>
-            <h4 className="mb-3">
-              Consultation en ligne
-            </h4>
+            <h4 className="mb-3">Consultation en ligne</h4>
             <p className="m-0">
               Accédez à des consultations médicales depuis chez vous. Échangez avec des professionnels de santé pour un diagnostic rapide et des conseils adaptés.
             </p>
@@ -61,12 +44,27 @@ export default function Service(){
         <div className="col-lg-4 col-md-6">
           <div className="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
             <div className="service-icon mb-4">
-              <i className="fa fa-2x fa-ambulance text-white" />
+              <i className="fa fa-2x fa-calendar text-white" />
             </div>
-            <h4 className="mb-3">Ambulance Service</h4>
+            <h4 className="mb-3">
+              Prise de rendez-vous
+            </h4>
             <p className="m-0">
-              Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-              stet, justo elitr dolor amet sit
+              Gagnez du temps en planifiant vos consultations auprès des médecins, spécialistes ou établissements de votre choix en quelques clics.
+            </p>
+            <a className="btn btn-lg btn-primary rounded-pill" href="">
+              <i className="bi bi-arrow-right" />
+            </a>
+          </div>
+        </div>
+        <div className="col-lg-4 col-md-6">
+          <div className="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+            <div className="service-icon mb-4">
+              <i className="fa fa-2x fa-house text-white" />
+            </div>
+            <h4 className="mb-3">Médécine à domicile</h4>
+            <p className="m-0">
+              Besoin d’une visite médicale à domicile ? MyHospital vous aide à localiser et à contacter des médecins disponibles pour se déplacer chez vous.
             </p>
             <a className="btn btn-lg btn-primary rounded-pill" href="">
               <i className="bi bi-arrow-right" />
@@ -92,12 +90,11 @@ export default function Service(){
         <div className="col-lg-4 col-md-6">
           <div className="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
             <div className="service-icon mb-4">
-              <i className="fa fa-2x fa-microscope text-white" />
+              <i className="fa fa-2x fa- fa-map-location-dot text-white" />
             </div>
-            <h4 className="mb-3">Blood Testing</h4>
+            <h4 className="mb-3">Hôpital / Clinique à proximité</h4>
             <p className="m-0">
-              Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-              stet, justo elitr dolor amet sit
+              Trouvez facilement les centres de santé proches de vous grâce à une carte interactive. Finis les pertes de temps en situation d’urgence.
             </p>
             <a className="btn btn-lg btn-primary rounded-pill" href="">
               <i className="bi bi-arrow-right" />
